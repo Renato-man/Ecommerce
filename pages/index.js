@@ -2,10 +2,22 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 
-const index = () => {
+const Home = () => {
   return (
-    <div>index</div>
+    <>
+      HeroBanner
+
+      <div className='products-heading'>
+        <h2>Best Selling Products</h2>
+        <p>Speakers of many variations</p>
+      </div>
+      <div className='products-container'>
+        {['Product 1', 'Product 2'].map((product) => product)}
+      </div>
+
+      Footer
+    </>
   )
 }
 
-export default index
+export default Home
