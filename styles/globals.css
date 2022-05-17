@@ -123,7 +123,8 @@ width: 100%;
 }
 
 .product-name{
-  font-weight: 500;
+  font-weight: 800;
+  font-size: larger;
 }
 .product-price{
   font-weight: 800;
@@ -466,6 +467,7 @@ padding: 30px 65px;
 
 .product-detail-desc h4{
   margin-top: 10px;
+  font-weight: 700;
 }
 .product-detail-desc p{
   margin-top: 10px;
@@ -528,6 +530,9 @@ padding: 30px 65px;
   transform:scale(1.1,1.1)
 }
 .quantity-desc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid gray;
 padding: 6px;
 }
