@@ -258,17 +258,21 @@ text-align: end;
 }
 .banner-desc .right{
   line-height: 1.4;
+  z-index: 2;
 }
 .banner-desc .right h3{
   font-weight: 800;
   font-size: 60px;
+  z-index: 2;
 }
 .banner-desc .right p{
   font-size: 18px;
+  z-index: 2;
 }
 .banner-desc .right .company-desc{
   font-size: 14px;
   font-weight: 300;
+  z-index: 2;
 }
 .cart-wrapper{
   width: 100vw;
@@ -329,6 +333,9 @@ text-align: end;
   color: #f02d34;
 }
 .empty-cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin:40px;
   text-align:center;
 }
@@ -347,7 +354,7 @@ padding: 20px 10px;
 }
 .product{
   display: flex;
- gap: 30px;
+  gap: 30px;
   padding: 20px;
 }
 .product .cart-product-image{
